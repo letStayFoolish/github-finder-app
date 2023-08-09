@@ -1,10 +1,10 @@
-import {FaGithub} from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 const Navbar = ({title}) => {
   return (
-    <nav className='navbar mb-12 shadow-lg bg-neutral'>
+    <nav className='navbar mb-12 shadow-lg bg-neutral text-neutral-contetnt'>
       <div className="container mx-auto">
         <div className="flex-none px-2 mx-2">
           <FaGithub className='inline pr-2 text-3xl' />
