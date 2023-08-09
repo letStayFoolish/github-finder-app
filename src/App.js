@@ -1,6 +1,9 @@
 import { Routes, Route, BrowserRouter as Router} from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
+import Home from "./components/pages/Home";
+import NotFound from "./components/pages/NotFound";
+import About from "./components/pages/About";
 
 function App() {
   return (
@@ -9,7 +12,11 @@ function App() {
         <Navbar />
 
         <main className='container mx-auto px-3 pb-12'>
-          Content
+          <Routes >
+            <Route path='/' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/*' element={<NotFound />} />
+          </Routes>
         </main>
         <Footer />
       </div>
