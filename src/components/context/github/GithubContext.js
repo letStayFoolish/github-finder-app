@@ -8,7 +8,7 @@ const GITHUB_URL = process.env.REACT_APP_GITHUB_URL
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN
 
 
-export const GithubProvider = ({ children }) => {
+export const GithubProvider = ({children}) => {
   const initialState = {
     users: [],
     loading: false,
@@ -31,7 +31,7 @@ export const GithubProvider = ({ children }) => {
       }
     })
 
-    const { items } = await request.json()
+    const {items} = await request.json()
 
     dispatch({
       type: 'GET_USERS',
@@ -40,10 +40,19 @@ export const GithubProvider = ({ children }) => {
   }
 
   // Set loading
-  const setLoading = () => dispatch({ type: 'SET_LOADING'})
+  const setLoading = () => dispatch({type: 'SET_LOADING'})
+  const clearUsers = () => dispatch({type: 'CLEAR_USERS'})
 
   return (
-    <GithubContext.Provider value={{users: state.users, loading: state.loading, searchUsers}} >
+    <GithubContext.Provider
+      value={{
+        users: state.users,
+        loading: state.loading,
+        searchUsers,
+        clearUsers
+      }
+      }
+    >
       {children}
     </GithubContext.Provider>
   )
