@@ -3,7 +3,7 @@ import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import User from "./components/users/User";
+import User from "./components/pages/User";
 import NotFound from "./components/pages/NotFound";
 import {GithubProvider} from "./components/context/github/GithubContext";
 import {AlertProvider} from "./components/context/alert/AlertContext";
