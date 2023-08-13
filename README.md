@@ -15,7 +15,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/letStayFoolish/github-finder-app" target="_blank">
+  <a href="https://github-finder-app-omega-six.vercel.app/" target="_blank">
     <img src="./src/components/layout/assets/logo.png" alt="Logo" width="200" height="60">
   </a>
 
@@ -27,7 +27,7 @@
     <a href="https://github.com/letStayFoolish/github-finder-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://vercel.com/letstayfoolish/github-finder-app">View Demo</a>
+    <a href="https://github-finder-app-omega-six.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/letStayFoolish/github-finder-app/issues">Report Bug</a>
     ·
