@@ -1,4 +1,4 @@
-import {FaCodepen, faCodepen, FaStore, FaUserFriends, FaUsers} from 'react-icons/fa'
+import {FaCodepen, FaStore, FaUserFriends, FaUsers} from 'react-icons/fa'
 import {useEffect, useContext} from "react";
 import {useParams} from "react-router-dom";
 import { Link } from 'react-router-dom'
@@ -27,9 +27,11 @@ const User = () => {
   } = user
 
   useEffect(() => {
-    getUser(params.login)
-    getUserRepos(params.login)
-  }, []);
+      getUser(params.login)
+      getUserRepos(params.login)
+    },
+    // eslint-disable-next-line no-use-before-define
+    []);
 
 
 
