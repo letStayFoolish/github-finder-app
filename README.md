@@ -1,70 +1,171 @@
-# Getting Started with Create React App
+[//]: # ([![Contributors][contributors-shield]][contributors-url])
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[//]: # ([![Forks][forks-shield]][forks-url])
 
-## Available Scripts
+[//]: # ([![Stargazers][stars-shield]][stars-url])
 
-In the project directory, you can run:
+[//]: # ([![Issues][issues-shield]][issues-url])
 
-### `npm start`
+[//]: # ([![MIT License][license-shield]][license-url])
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[//]: # ([![LinkedIn][linkedin-shield]][linkedin-url])
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/letStayFoolish/github-finder-app" target="_blank">
+    <img src="./src/components/layout/assets/logo.png" alt="Logo" width="200" height="60">
+  </a>
 
-### `npm run build`
+<h3 align="center">GitHub Finder</h3>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <p align="center">
+    Find GitHub users and display their info
+    <br />
+    <a href="https://github.com/letStayFoolish/github-finder-app"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://vercel.com/letstayfoolish/github-finder-app">View Demo</a>
+    ·
+    <a href="https://github.com/letStayFoolish/github-finder-app/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/letStayFoolish/github-finder-app/issues">Request Feature</a>
+  </p>
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="./src/components/layout/assets/screen-02.png">
 
-## Learn More
+Simple application based on React. At first, type username or login to search user/users. Then You can click on "View profile" to get onto selected user's page. On selected user page, you get information like:
+ - Profile picture;
+ - Profile full name;
+ - Login;
+ - Twitter address;
+ - Webpage address;
+ - Information about repositories, forks, stars and more...
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Also, you can click on "clear" so you clear users from the search page.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Built With
 
-### Analyzing the Bundle Size
+As mentioned earlier, this application is written on React, using `create-react-app`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* [![React][React.js]][React-url]
 
-### Making a Progressive Web App
+- React JS:
+    - Create React App;
+    - JSX;
+    - Functional components;
+    - Hooks.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Advanced Configuration
+<!-- GETTING STARTED -->
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To get a local copy up and running, follow these simple example steps.
 
-### Deployment
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-### `npm run build` fails to minify
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone repository:
+
+    git clone https://github.com/letStayFoolish/github-finder-app
+You can do it just by click [here](https://github.com/letStayFoolish/github-finder-app).
+
+Install dependencies:
+
+`npm install`
+
+Run app:
+
+`npm run start`
+
+Build app (production):
+
+`npm run build`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Screenshots
+
+See examples of pages (routes) while using this app. 
+
+<img src="./src/components/layout/assets/screen-01.png" width="100%">
+<details><summary><b>Show all</b></summary>
+<img src="./src/components/layout/assets/screen-02.png" width="100%">
+<img src="./src/components/layout/assets/screen-03.png" width="100%">
+<img src="./src/components/layout/assets/screen-04.png" width="100%">
+<img src="./src/components/layout/assets/screen-05.png" width="100%">
+</details>
+
+<hr>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+Nemanja Karaklajic - [linkedIn](https://www.linkedin.com/in/nemanjakaraklajic30111990/)
+
+Project Link: [https://github.com/letStayFoolish/github-finder-app](https://github.com/letStayFoolish/github-finder-app)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+
