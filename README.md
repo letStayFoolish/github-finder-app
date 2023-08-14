@@ -83,7 +83,7 @@ Also, you can click on "clear" so you clear users from the search page.
 
 As mentioned earlier, this application is written on React, using `create-react-app`.
 
-* [![React][React.js]][React-url]
+[![React][React.js]][React-url]
 
 - React JS:
     - Create React App;
